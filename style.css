@@ -1,0 +1,149 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a:active,
+a:hover,
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+body {
+  background-image: url(images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin: 30px;
+}
+
+.container h1 {
+  font-size: 100px;
+  font-weight: bold;
+  color: #e1b0e5;
+  text-align: center;
+  text-shadow: 10px 10px 10px #1f1f1f;
+}
+
+.game-reset {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.game-reset button {
+  background: #fff;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  padding: 7px 10px 10px 10px;
+  margin: 0;
+}
+
+.game-reset button img {
+  width: 20px;
+  height: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  gap: 40px;
+  align-items: center;
+  height: 100vh;
+}
+
+.game-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #0a394c;
+  padding: 20px;
+  border-radius: 50px;
+  box-shadow: 10px 10px 10px #1f1f1f;
+  width: 600px;
+  gap: 30px;
+}
+.game-container p {
+  color: #fff;
+  margin: 20px;
+  font-size: 30px;
+}
+
+.game-range {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  gap: 20px;
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.button {
+  background-color: #00679b;
+  border-radius: 50px;
+  color: #fff;
+  padding: 10px 30px;
+  border: none;
+  cursor: pointer;
+
+  font-size: 24px;
+}
+
+.button:hover {
+  background-color: #e1b0e5;
+  color: #000;
+}
+
+.button__not-active {
+  background-color: #808080;
+  border-radius: 50px;
+  color: #fff;
+  padding: 10px 30px;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+}
+
+input {
+  padding: 12px;
+  font-size: 16px;
+  width: 80px;
+  border-radius: 50px;
+}
+
+input::placeholder {
+  color: #999;
+}
+
+/*убираем стрелки*/
+
+input[type="number"] {
+  -moz-appearance: textfield; /* Firefox */
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Убираем обводку для всех элементов формы */
+input:focus,
+textarea:focus,
+select:focus,
+button:focus {
+  outline: none;
+}
+
+p {
+  margin: 10px 0;
+  color: #fff;
+}
