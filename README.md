@@ -17,6 +17,11 @@
 
 ![image](https://github.com/Christinnenko/Game-Guess-the-number-/assets/135636897/f75312c8-5f90-49fd-867f-0eff37cd610f)
 
+## Технологии:
+
+HTML, CSS, JavaScript (без использования сторонних библиотек и фреймворков согласно ТЗ)
+
+
 
 
 
